@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>测试ActiveX</title> 
+ </head> 
+ <body> 
+  <object id="Demo" classid="clsid:615840C7-84BA-4727-B4C8-00F04BCB74D6" codebase="IDReaderActiveX.cab"></object> 
+  <textarea id="text1" rows="20" cols="50"></textarea>
+  <script>
+      function showInfo()
+      {
+          var obj = document.getElementById("Demo");
+          document.getElementById("text1").value = obj.readID();       
+      }
+  </script> 
+  <br /> 
+  <input type="button" value="显示获取到的信息" onclick="showInfo()" width="500" height="500" />
+ </body>
+</html>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDReaderActiveX", "IDReaderActiveX\IDReaderActiveX.csproj", "{F1E25685-FA39-4A62-916E-ECE6B5D9DE66}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IDReaderActiveXSetup", "IDReaderActiveXSetup\IDReaderActiveXSetup.vdproj", "{6C94A1C5-A06C-4243-9833-564977DA96B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E25685-FA39-4A62-916E-ECE6B5D9DE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E25685-FA39-4A62-916E-ECE6B5D9DE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E25685-FA39-4A62-916E-ECE6B5D9DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E25685-FA39-4A62-916E-ECE6B5D9DE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C94A1C5-A06C-4243-9833-564977DA96B9}.Debug|Any CPU.ActiveCfg = Debug
+		{6C94A1C5-A06C-4243-9833-564977DA96B9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43DEE5F8-7944-46BC-A8D8-04B34BB5604E}
+	EndGlobalSection
+EndGlobal
